@@ -119,6 +119,7 @@ Example input 2
 Please refer to patternpool.txt for further example
 
 For citatation
+```
 @article{qiao2017subgraph,
   title={Subgraph matching: on compression and computation},
   author={Qiao, Miao and Zhang, Hao and Cheng, Hong},
@@ -129,6 +130,7 @@ For citatation
   year={2017},
   publisher={VLDB Endowment}
 }
+```
 
 
 ### if you have found any bug or something you don't understand feel free to contact me at [hzhang@se.cuhk.edu.hk](hzhang@se.cuhk.edu.hk)
