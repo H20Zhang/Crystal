@@ -1,4 +1,7 @@
 ##	README
+THis project is an implemetation of the method described in <<Subgraph matching: on compression and computation>> published in VLDB2018
+
+
 
 ##	Source File
 Source Code is in **Subgraph** folder, which can be open by IDEA.
@@ -112,6 +115,18 @@ Example input 2
 200
 
 Please refer to patternpool.txt for further example
+
+For citatation
+@article{qiao2017subgraph,
+  title={Subgraph matching: on compression and computation},
+  author={Qiao, Miao and Zhang, Hao and Cheng, Hong},
+  journal={Proceedings of the VLDB Endowment},
+  volume={11},
+  number={2},
+  pages={176--188},
+  year={2017},
+  publisher={VLDB Endowment}
+}
 
 
 ### if you have found any bug or something you don't understand feel free to contact me at [hzhang@se.cuhk.edu.hk](hzhang@se.cuhk.edu.hk)
