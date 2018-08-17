@@ -1,0 +1,9 @@
+square 57654491	ok
+chordal_square 40544543	ok
+house 9488779111	ok
+chordal_roof 1533407659	ok
+three_triangle 4105908615	ok
+solar_square 301301877	ok
+Near5Clique 810216972	ok
+QuadTriangle 251253387714	ok
+solar_square_plus 335488134448	ok
