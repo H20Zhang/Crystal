@@ -1,10 +1,10 @@
 ##	README
-THis project is an implemetation of the method described in "Subgraph matching: on compression and computation" published in VLDB2018
+This project is an implemetation of the method described in "Subgraph matching: on compression and computation" published in VLDB2018. This implementaion is for testing only, as some tricks were used when implementing the intersection which is not described in detail in the paper.
 
 
 
 ##	Source File
-Source Code is in **Subgraph** folder, which can be open by IDEA.
+Source Code is in **Subgraph** folder, which can be open by **Intellij Idea**.
 
 In it you can find three packages:
 
