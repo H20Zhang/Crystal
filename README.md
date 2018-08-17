@@ -1,5 +1,5 @@
 ##	README
-THis project is an implemetation of the method described in <<Subgraph matching: on compression and computation>> published in VLDB2018
+THis project is an implemetation of the method described in "Subgraph matching: on compression and computation" published in VLDB2018
 
 
 
@@ -95,14 +95,16 @@ followed by a line, if b=1,
 	followed by k lines, the i-th line specifies 
 		the total number of Clique_i in the target graph. Specifically, the first line is the # of nodes in the target graph and the second line is the # of edges in the target 
 
+```
 Example input 1
 
-4 4 0 
+4 4 0
 1 2
 1 3
 2 4
 3 
-
+```
+```
 Example input 2
 4 4 1
 1 2
@@ -113,7 +115,7 @@ Example input 2
 2 20
 100
 200
-
+```
 Please refer to patternpool.txt for further example
 
 For citatation
