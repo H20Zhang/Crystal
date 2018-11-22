@@ -1,5 +1,9 @@
-##	README
-This project is an implemetation of the method described in **Subgraph matching: on compression and computation** published in VLDB2018. This implementaion is for testing only, as some tricks were used when implementing the intersection which is not described in detail in the paper.
+#      Crystal:A very fast distributed subgraph matching algorithm
+This project contains the implemetation of the method described in **Subgraph matching: on compression and computation** published in VLDB2018. This implementaion is for testing only, as some tricks were used when implementing the intersection which is not described in detail in the paper.
+
+
+##      Patterns Implemented
+
 
 
 
