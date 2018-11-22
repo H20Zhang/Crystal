@@ -152,4 +152,4 @@ For citatation
 ```
 
 
-### if you have found any bug or something you don't understand feel free to contact me at [hzhang@se.cuhk.edu.hk](hzhang@se.cuhk.edu.hk)
+### contact me at [hzhang@se.cuhk.edu.hk](hzhang@se.cuhk.edu.hk)
