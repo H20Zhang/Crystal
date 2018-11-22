@@ -1,9 +1,26 @@
 #      Crystal:A very fast distributed subgraph matching algorithm
 This project contains the implemetation of the method described in **Subgraph matching: on compression and computation** published in VLDB2018. This implementaion is for testing only, as some tricks were used when implementing the intersection which is not described in detail in the paper.
 
-
 ##      Patterns
 ![Pattern](./pattern.jpg?raw=true "Pattern")
+
+##      Environment Requirement
+
+[Hadoop 2.7.3](https://hadoop.apache.org) installed.
+
+##      How to use?
+
+#### 1) preprocess datasets (in edge list form) by
+run "Preprocess.sh"
+
+#### 2) perform counting
+run "CountingTest.sh", which will count subgraph matching for all pattern listed.
+
+#### 3) generate compression form
+run "WritingTest.sh", which will dump the the result of subgraph matching for all pattern listed to HDFS
+
+
+See the examples in 
 
 ##	Source File
 Source Code is in **Subgraph** folder, which can be open by **Intellij Idea**.
