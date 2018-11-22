@@ -6,7 +6,7 @@ This project contains the implemetation of the method described in **Subgraph ma
 
 ##      Environment Requirement
 
-[Hadoop 2.7.3](https://hadoop.apache.org) installed.
+[Hadoop 2.7.3](https://hadoop.apache.org).
 
 ##      How to use?
 
@@ -20,9 +20,9 @@ run "CountingTest.sh", which will count subgraph matching for all pattern listed
 run "WritingTest.sh", which will dump the the result of subgraph matching for all pattern listed to HDFS
 
 
-See the examples in 
 
-##	Source File
+
+##	Detail Specification
 Source Code is in **Subgraph** folder, which can be open by **Intellij Idea**.
 
 In it you can find three packages:
@@ -48,7 +48,7 @@ In it you can find three packages:
 
 Each of the patterns comes with two java class, one for counting, one for outputting(class with name ended with O). More detail please read the code.
 
-##	Test File
+###	Test File
 Files related to testing is at Top level.
 
 - **Data**: small datasets for testing the algorithm, in which each dataset is attached with a *-pattern-size.txt recording the pattern's size in each graph for each pattern.
@@ -59,7 +59,7 @@ Files related to testing is at Top level.
 
 Please run Preprocess.sh first, before running the other two shell script. More detail please read the .sh file, and change some of the variables accordingly in the script file.
 
-##	Parameter 
+###	Parameter 
 - mapreduce.job.reduces: better using the same number as vCore in yarn
 - mapreduce.reduce.memory.mb: the default is 4000MB, if graph bigger than UK2002 need to be processed, this might need to increase.
 - mapreduce.map.memory.mb: the default is 4000MB, if graph bigger than UK2002 need to be processed, this might need to increase.
@@ -72,7 +72,7 @@ Please run Preprocess.sh first, before running the other two shell script. More 
 - test.isOutput: specify whether the result should be outputted in *O.class.
 - test.isEnumerating: whether just counting or enumerating.
 
-##	Format
+###	Format
 - InputFormat: Edge List
 - OutputFormat: file format specified in the paper. 
 
